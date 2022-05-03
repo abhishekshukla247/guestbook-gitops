@@ -11,8 +11,7 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           release-type: simple
-          package-name: release-please-action
-          command: github-release
+          package-name: test
           default-branch: dev
           bump-minor-pre-major: true
           bump-patch-for-minor-pre-major: true
