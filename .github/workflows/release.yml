@@ -1,28 +1,13 @@
-name: Releases
 on:
   push:
     branches:
-      - master
-
+      - dev
+name: release-please
 jobs:
-  changelog:
+  release-please:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-
-      - name: conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.7.1
+      - uses: google-github-actions/release-please-action@v3
         with:
-          github-token: ${{ secrets.GH_TOKEN }}
-
-      - name: create release
-        uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          release-type: python
+          package-name: release-please-action
