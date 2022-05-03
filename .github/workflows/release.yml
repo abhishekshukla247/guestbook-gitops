@@ -11,3 +11,5 @@ jobs:
         with:
           release-type: python
           package-name: release-please-action
+          command: github-release
+          default-branch: dev
