@@ -1,5 +1,5 @@
 # I will put anything below for testing
-Hello world! How are you? Feat 1, Feat 2, Feat 3
+Hello world! How are you? Feat 1, Feat 2, Feat 3, Feat 4
 # Building a Continuous Deployment GitOps Pipeline to EKS
 
 This tutorial describes how to set up a basic GitOps deployment pipeline with Flux and GitHub actions. It uses the Kubernetes Guestbook application and also adapts a [GitHub Actions pipeline](https://github.com/github-developer/example-actions-flux-eks) originally developed by Jeremy Adams and John Bohannon of GitHub.
