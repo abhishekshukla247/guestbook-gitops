@@ -23,9 +23,21 @@ env:
   CONTAINER_IMAGE: guestbook:${{ github.sha }}
 
 jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          release-type: simple
+          package-name: test
+          default-branch: dev
+          bump-minor-pre-major: true
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
   build-and-push:
     name: Build and deploy
     runs-on: ubuntu-latest
+    if: github.event_name == 'release' && github.event.action == 'created'  
     steps:
 
     - name: Checkout
