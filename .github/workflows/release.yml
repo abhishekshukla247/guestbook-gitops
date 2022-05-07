@@ -1,11 +1,13 @@
 on:
-  push:
-    branches:
+  pull_request:
+    types: [closed]
+    branches: 
       - dev
 name: release-please
 jobs:
   release-please:
-    if: (!contains(github.event.head_commit.message, 'release-please'))
+    if: (github.event_name == 'pull_request' && github.event.pull_request.merged == true &&
+         github.head_ref != 'release-please--branch--dev')
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
