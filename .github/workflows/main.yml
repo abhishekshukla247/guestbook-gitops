@@ -30,7 +30,7 @@ jobs:
   build-and-push:
     name: Build and deploy
     runs-on: ubuntu-latest
-    if: ${{ jobs.release-please.steps.release.outputs.release_created }}
+    if: ${{ steps.release.outputs.release_created }}
     steps:
 
     - name: Checkout
