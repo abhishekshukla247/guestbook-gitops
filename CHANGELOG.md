@@ -7,6 +7,13 @@
 
 
 
+## [0.12.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/v0.11.0...v0.12.0) (2022-05-09)
+
+
+### Features
+
+* **4:** Test release feature ([da71801](https://github.com/abhishekshukla247/guestbook-gitops/commit/da71801aeedc76144ae6e7c30747eb858c60fe5f))
+
 ## [0.11.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/v0.10.0...v0.11.0) (2022-05-09)
 
 
