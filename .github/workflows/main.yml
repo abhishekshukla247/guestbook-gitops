@@ -34,7 +34,9 @@ jobs:
     - name: Checkout
       if: ${{ steps.release.outputs.release_created }}
       uses: actions/checkout@master
-
+    - name: Print Version
+        run: |
+          echo "[LOG] Version_Id: ${{ steps.release.outputs.tag_name }}"
     # Add steps here like linting, testing, minification, etc.
       
     - name: Setup ECR
