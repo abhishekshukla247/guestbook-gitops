@@ -31,6 +31,7 @@ jobs:
         default-branch: dev
         bump-minor-pre-major: true
         draft: true
+        draft-pull-request: true
     - name: Checkout
       if: ${{ steps.release.outputs.release_created }}
       uses: actions/checkout@master
