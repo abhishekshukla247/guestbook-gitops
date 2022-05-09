@@ -25,6 +25,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           release-type: simple
           default-branch: dev
+          command: github-release
   build-and-push:
     needs: release-please
     if: ${{ needs.release-please.steps.release.outputs.release_created }}
