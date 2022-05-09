@@ -33,7 +33,6 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@master
-      if: ${{ steps.release.outputs.release_created }}
 
     # Add steps here like linting, testing, minification, etc.
       
