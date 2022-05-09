@@ -29,7 +29,7 @@ jobs:
           bump-minor-pre-major: true
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
   build-and-push:
-    if: ${{ job.Release.steps.release.outputs.release_created }}
+    if: ${{ Release.steps.release.outputs.release_created }}
     name: Build and deploy
     runs-on: ubuntu-latest
     steps:
