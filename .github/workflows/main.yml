@@ -1,8 +1,7 @@
 # build.yml
 on:
-  push:
-    branches: 
-      - dev
+  release:
+    types: created
 
 name: Build and Push an Image to ECR
 
@@ -20,21 +19,15 @@ jobs:
     name: Build and deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: google-github-actions/release-please-action@v3
-      id: release
-      with:
-        token: ${{ secrets.GH_TOKEN }}
-        release-type: node
-        package-name: test
-        default-branch: dev
-        bump-minor-pre-major: true
-        prerelease: true
     - name: Checkout
-      if: ${{ steps.release.outputs.release_created }}
       uses: actions/checkout@master
+    - uses: actions-ecosystem/action-get-latest-tag@v1
+      id: get-latest-tag
+      with:
+        semver_only: true
     - name: Print Version
       run: |
-        echo "[LOG] Version_Id: ${{ steps.release.outputs.tag_name }}"
+        echo "[LOG] Version_Id: ${{ steps.get-latest-tag.outputs.tag }}"
     # Add steps here like linting, testing, minification, etc.
       
     - name: Setup ECR
