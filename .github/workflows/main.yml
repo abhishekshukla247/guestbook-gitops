@@ -3,8 +3,6 @@ on:
   push:
     branches: 
       - dev
-  release:
-    types: created
 
 name: Build and Push an Image to ECR
 
