@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@master
     - name: Print Version
       run: |
-        echo "[LOG] Version_Id: ${{ ${{ github.ref_name}} }}"
+        echo "[LOG] Version_Id: ${{ github.ref_name}} "
     # Add steps here like linting, testing, minification, etc.
       
     - name: Setup ECR
