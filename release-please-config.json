@@ -8,7 +8,11 @@
       "changelogPath": "CHANGELOG.md",
       "versioning": "default"
     },
-    "php-redis": {},
-    "redis-slave": {}
+    "php-redis": {
+      "release-type": "simple"
+    },
+    "redis-slave": {
+      "release-type": "simple"
+    }
   }
 }
