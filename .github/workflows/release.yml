@@ -12,3 +12,4 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           command: manifest
           monorepo-tags: true
+          default-branch: dev
