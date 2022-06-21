@@ -1,7 +1,15 @@
 {
-    "bootstrap-sha": "f0ffeb830e441b1b1c8ca2a5d64867d0371668bb",
-    "packages": {
-      "redis-slave": {},
-      "php-redis": {}
+  "bootstrap-sha": "f0ffeb830e441b1b1c8ca2a5d64867d0371668bb",
+  "packages": {
+    "redis-slave": {},
+    "php-redis": {},
+    ".": {
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
     }
   }
+}
