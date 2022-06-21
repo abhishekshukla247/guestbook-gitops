@@ -1,4 +1,5 @@
 {
+    "bootstrap-sha": "90a3d68cd601f721316e457c864bd776fa329edd",
     "packages": {
       "redis-slave": {},
       "php-redis": {}
