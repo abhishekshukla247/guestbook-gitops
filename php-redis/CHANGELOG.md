@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/abhishekshukla247/guestbook-gitops/compare/v1.4.0...v1.4.1) (2022-07-28)
+
+
+### Bug Fixes
+
+* Fix php-redis index file ([200fae6](https://github.com/abhishekshukla247/guestbook-gitops/commit/200fae68ee700724eb1faaf8e87bab4aeda9d3f9))
+
 ## [1.4.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/v1.3.0...v1.4.0) (2022-07-28)
 
 
