@@ -1,13 +1,12 @@
 {
+  "monorepo-tags": "true",
   "packages": {
     ".": {
     },
     "php-redis": {
-      "package-name": "php-redis",
       "release-type": "simple"
     },
     "redis-slave": {
-      "package-name": "redis-slave",
       "release-type": "simple"
     }
   }
