@@ -7,6 +7,30 @@
 
 
 
+## [0.35.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/v0.35.0...v0.35.0) (2022-07-28)
+
+
+### Features
+
+* **1:** Test release feature ([4eed4d7](https://github.com/abhishekshukla247/guestbook-gitops/commit/4eed4d7fa332343f1b8d3f1a8e9a994413b5ee0d))
+* Test monorepo release ([bbfa07d](https://github.com/abhishekshukla247/guestbook-gitops/commit/bbfa07dc960c543437a2e441bf12ec01bb787c78))
+* Test monorepo release ([a74f0e1](https://github.com/abhishekshukla247/guestbook-gitops/commit/a74f0e1a06715f162032de11440d5a7890aca53a))
+* Test monorepo release ([0eb7822](https://github.com/abhishekshukla247/guestbook-gitops/commit/0eb7822f059e1f851b3d31fbdbce626746e25545))
+* Test monorepo release ([81ec70c](https://github.com/abhishekshukla247/guestbook-gitops/commit/81ec70c32d2675b2dc10c93ef991abc734b7feb6))
+* Test monorepo release ([c75bece](https://github.com/abhishekshukla247/guestbook-gitops/commit/c75becefb5610a8907d4d08c445d81572dc56540))
+* Test monorepo release ([a22e3a7](https://github.com/abhishekshukla247/guestbook-gitops/commit/a22e3a7c8363e12ae32a7fff378c4895513a5f92))
+* Test monorepo release ([24ff8eb](https://github.com/abhishekshukla247/guestbook-gitops/commit/24ff8eb5a0057cf01d6b9c5d1430cdb3d089e4fe))
+* Test monorepo release ([968c21b](https://github.com/abhishekshukla247/guestbook-gitops/commit/968c21b90e7d7666b84f2404141468731ba838b0))
+* Test monorepo release ([b7a8b0b](https://github.com/abhishekshukla247/guestbook-gitops/commit/b7a8b0b701a5ff3f9e3a93060fbb870655ee6fe1))
+* Test monorepo release ([15452db](https://github.com/abhishekshukla247/guestbook-gitops/commit/15452db92749853b1233658c645bd079d027ccd6))
+* Test monorepo release ([939f27a](https://github.com/abhishekshukla247/guestbook-gitops/commit/939f27a99aeca4a1e931b652e4cc42af34d80374))
+* Test monorepo release ([2cd3267](https://github.com/abhishekshukla247/guestbook-gitops/commit/2cd3267ec2089267b85743fd399e114c7d6bd9b5))
+* Test path based versioning ([4aa660d](https://github.com/abhishekshukla247/guestbook-gitops/commit/4aa660de55178e6c0a7f178d76ff09c1f187b027))
+* Test path based versioning ([9083345](https://github.com/abhishekshukla247/guestbook-gitops/commit/90833451d5cc2266c02a9ccb2709154f703fe98d))
+* Test path based versioning ([4f3ed21](https://github.com/abhishekshukla247/guestbook-gitops/commit/4f3ed21bc8ef49f104213437e3bad2bc6800ed9b))
+* Test path based versioning ([c60b156](https://github.com/abhishekshukla247/guestbook-gitops/commit/c60b1564427732097843127dda5bc914fbb35c5c))
+* Test path based versioning ([278c7a3](https://github.com/abhishekshukla247/guestbook-gitops/commit/278c7a329cd5556776e12d7fdd92dc44d3694bc6))
+
 ## [0.35.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/v0.35.0...v0.35.0) (2022-06-21)
 
 
