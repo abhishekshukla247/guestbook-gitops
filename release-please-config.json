@@ -2,7 +2,14 @@
   "monorepo-tags": "true",
   "packages": {
     "php-redis": {
-      "release-type": "simple"
+      "releaseType": "simple",
+      "packageName": "php-redis",
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
     },
     "redis-slave": {
       "release-type": "simple"
