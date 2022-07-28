@@ -1,8 +1,6 @@
 {
   "monorepo-tags": "true",
   "packages": {
-    ".": {
-    },
     "php-redis": {
       "release-type": "simple"
     },
