@@ -1,1 +1,4 @@
-{"version":"1.0.0"}
+{
+    "name": "@guestbook-gitops/php-redis",
+    "version":"1.0.0"
+}
