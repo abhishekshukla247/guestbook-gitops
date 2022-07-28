@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "php-redis": {
+      "releaseType": "simple",
+      "packageName": "php-redis",
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
+    }
+  }
+}
