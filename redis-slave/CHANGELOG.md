@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/abhishekshukla247/guestbook-gitops/compare/redis-slave-v1.1.0...redis-slave-v1.1.1) (2022-08-01)
+
+
+### Bug Fixes
+
+* Update shell script ([cc4f0af](https://github.com/abhishekshukla247/guestbook-gitops/commit/cc4f0afd4d9443ee7044c29def4b753e99568db3))
+
 ## [1.1.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/redis-slave-v1.0.0...redis-slave-v1.1.0) (2022-08-01)
 
 
