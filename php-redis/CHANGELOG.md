@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v1.1.4...php-redis-v1.1.5) (2022-08-03)
+
+
+### Bug Fixes
+
+* Update shell script and html ([fb1d875](https://github.com/abhishekshukla247/guestbook-gitops/commit/fb1d875997574ce3bdcabb930cf06f3127de173e))
+
 ## [1.1.4](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v1.1.3...php-redis-v1.1.4) (2022-08-03)
 
 
