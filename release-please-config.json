@@ -3,6 +3,7 @@
     "php-redis": {
       "releaseType": "simple",
       "packageName": "php-redis",
+      "component": "php-redis",
       "draft": false,
       "prerelease": false,
       "bumpMinorPreMajor": false,
@@ -13,6 +14,7 @@
     "redis-slave": {
       "releaseType": "simple",
       "packageName": "redis-slave",
+      "component": "redis-slave",
       "draft": false,
       "prerelease": false,
       "bumpMinorPreMajor": false,
