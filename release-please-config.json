@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "redis-slave": {
+      "releaseType": "simple",
+      "component": "redis-slave",
+      "packageName": "redis-slave",
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
+    }
+  }
+}
