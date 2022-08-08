@@ -1,7 +1,7 @@
 {
   "packages": {
     "php-redis": {
-      "releaseType": "simple",
+      "releaseType": "python",
       "component": "php-redis",
       "packageName": "php-redis",
       "draft": false,
