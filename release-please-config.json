@@ -10,6 +10,17 @@
       "bumpPatchForMinorPreMajor": false,
       "changelogPath": "CHANGELOG.md",
       "versioning": "default"
+    },
+    "redis-slave": {
+      "releaseType": "python",
+      "component": "redis-slave",
+      "packageName": "redis-slave",
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
     }
   }
 }
