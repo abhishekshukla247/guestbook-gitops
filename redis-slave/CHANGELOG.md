@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/abhishekshukla247/guestbook-gitops/compare/redis-slave-v0.4.0...redis-slave-v0.4.1) (2022-08-08)
+
+
+### Bug Fixes
+
+* html title ([fc0f125](https://github.com/abhishekshukla247/guestbook-gitops/commit/fc0f1254ce4383ba91a9870d66a017d89731a3e3))
+
 ## [0.4.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/redis-slave-v0.3.2...redis-slave-v0.4.0) (2022-08-08)
 
 
