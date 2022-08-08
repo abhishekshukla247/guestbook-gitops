@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v0.3.0...php-redis-v0.3.1) (2022-08-08)
+
+
+### Bug Fixes
+
+* html title ([2608280](https://github.com/abhishekshukla247/guestbook-gitops/commit/2608280a9abe0a16693e7d28c60936a24f8912ce))
+
 ## [0.3.0](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v0.2.0...php-redis-v0.3.0) (2022-08-08)
 
 
