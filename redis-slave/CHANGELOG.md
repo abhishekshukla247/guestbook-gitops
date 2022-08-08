@@ -1,0 +1,23 @@
+# Changelog
+
+## 0.1.0 (2022-08-08)
+
+
+### Features
+
+* New package json file for release ([160d326](https://github.com/abhishekshukla247/guestbook-gitops/commit/160d326a043da10b559640edb5e5bc7bbdb26240))
+* Test monorepo redis slave release ([d76b87c](https://github.com/abhishekshukla247/guestbook-gitops/commit/d76b87c680279f3418e852efb118e43573eb0687))
+* Test monorepo release ([e69f73d](https://github.com/abhishekshukla247/guestbook-gitops/commit/e69f73dfaaab81125f8c95f83f5c16e9bc7a32b4))
+* Test monorepo release ([8516664](https://github.com/abhishekshukla247/guestbook-gitops/commit/85166647c89c320d4e4857be1874d9f6ffe99f64))
+* Test monorepo release ([bbfa07d](https://github.com/abhishekshukla247/guestbook-gitops/commit/bbfa07dc960c543437a2e441bf12ec01bb787c78))
+* Test monorepo release ([a74f0e1](https://github.com/abhishekshukla247/guestbook-gitops/commit/a74f0e1a06715f162032de11440d5a7890aca53a))
+* Test monorepo release ([c75bece](https://github.com/abhishekshukla247/guestbook-gitops/commit/c75becefb5610a8907d4d08c445d81572dc56540))
+
+
+### Bug Fixes
+
+* remove package json ([07f13b5](https://github.com/abhishekshukla247/guestbook-gitops/commit/07f13b59ff99295e3a73559f7c5ea03ee6ede380))
+* Update shell script ([88fece7](https://github.com/abhishekshukla247/guestbook-gitops/commit/88fece7d038559bae2613e4a8bf0e1185e5ad5fb))
+* Update shell script ([d3f2548](https://github.com/abhishekshukla247/guestbook-gitops/commit/d3f2548bd1adee072d4011e18d5d8dfcda903abe))
+* Update shell script ([cc4f0af](https://github.com/abhishekshukla247/guestbook-gitops/commit/cc4f0afd4d9443ee7044c29def4b753e99568db3))
+* Update shell script and html ([fb1d875](https://github.com/abhishekshukla247/guestbook-gitops/commit/fb1d875997574ce3bdcabb930cf06f3127de173e))
