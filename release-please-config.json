@@ -1,7 +1,7 @@
 {
   "packages": {
     "php-redis": {
-      "release-type": "python",
+      "release-type": "simple",
       "component": "php-redis",
       "package-name": "php-redis",
       "draft": false,
@@ -12,7 +12,7 @@
       "versioning": "default"
     },
     "redis-slave": {
-      "release-type": "python",
+      "release-type": "simple",
       "component": "redis-slave",
       "package-name": "redis-slave",
       "draft": false,
