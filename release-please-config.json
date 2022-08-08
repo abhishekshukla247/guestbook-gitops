@@ -1,5 +1,6 @@
 {
   "packages": {
-    "php-redis": {}
+    "php-redis": {},
+    "redis-slave": {}
   }
 }
