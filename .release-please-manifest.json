@@ -1,4 +1,4 @@
 {
-  "php-redis": "0.4.1",
-  "redis-slave": "0.4.0"
+  "php-redis": "0.4.2",
+  "redis-slave": "0.4.1"
 }
