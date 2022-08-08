@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v1.0.1...php-redis-v1.0.2) (2022-08-08)
+
+
+### Bug Fixes
+
+* add name to package.json ([0acc3d7](https://github.com/abhishekshukla247/guestbook-gitops/commit/0acc3d73faa19ecdcdd8ebe91c01c586a5a38fae))
+
 ## [1.0.1](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v1.0.0...php-redis-v1.0.1) (2022-08-08)
 
 
