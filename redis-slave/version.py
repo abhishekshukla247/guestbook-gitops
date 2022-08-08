@@ -1,2 +1,2 @@
 #php-redis python package version
-__version__ = "0.3.2"
+__version__ = "0.0.0"
