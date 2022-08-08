@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/abhishekshukla247/guestbook-gitops/compare/redis-slave-v1.0.0...redis-slave-v1.0.1) (2022-08-08)
+
+
+### Bug Fixes
+
+* add name to package.json ([53d4843](https://github.com/abhishekshukla247/guestbook-gitops/commit/53d484356c6fbfb93e8d81a27049171e611a6c48))
+
 ## 1.0.0 (2022-08-08)
 
 
