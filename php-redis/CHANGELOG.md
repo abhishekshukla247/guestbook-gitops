@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.5](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v0.4.4...php-redis-v0.4.5) (2022-08-08)
+
+
+### Bug Fixes
+
+* New title for index ([7e22a82](https://github.com/abhishekshukla247/guestbook-gitops/commit/7e22a8294be0e20b9c0201871e22b9439b1ef05d))
+
 ## [0.4.4](https://github.com/abhishekshukla247/guestbook-gitops/compare/php-redis-v0.4.3...php-redis-v0.4.4) (2022-08-08)
 
 
